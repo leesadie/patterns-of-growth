@@ -3,15 +3,11 @@
 import Hero from "./Hero";
 import Navbar from "../nav/Navbar";
 import { font_bold, font_med } from "@/app/fonts";
-import Temporal from "./Temporal";
-import ReferenceHover from "../Reference";
+import ReferenceHover from "../interaction/Reference";
 
-// Import and render Altair charts dynamically - allow for interactions
-import dynamic from "next/dynamic";
-const Chart = dynamic(() => import('../vis/Chart'), {
-    ssr: false,
-    loading: () => <div>Loading chart...</div>
-})
+import Temporal from "./Temporal";
+import Geographic from "./Geographic";
+import DeepLearning from "./DeepLearning";
 
 const Main = () => {
     return (
@@ -50,61 +46,64 @@ const Main = () => {
                 <div className="pt-4">
                     The intended audience includes people with basic familiarity of AI model training and development, who are interested in understanding how different factors have shaped the trajectory of AI progress. We expect the audience to gain insight into how AI development has evolved and its trends of growth over time.
                 </div>
+                <div className="pt-4">
+                    [General takeaways go here]
+                </div>
             </section>
+
+            <hr className="my-20 text-evenlightergray w-full"/>
 
             {/* TEMPORAL */}
             <section
                 id="temporal"
-                className="flex flex-col mx-72 pt-6"
+                className="flex flex-col mx-72"
             >
                 <Temporal />
             </section>
 
+            <hr className="my-20 text-evenlightergray w-full"/>
+
             {/* GEOGRAPHIC */}
             <section
                 id="geo"
-                className="flex flex-col mx-72 pt-6"
+                className="flex flex-col mx-72"
             >
-                <div className={`text-2xl ${font_bold.className}`}>
-                    Geographic patterns
-                </div>
-                <div className="pt-4">
-                    Text goes here
-                </div>
+                <Geographic />
             </section>
+
+            <hr className="my-20 text-evenlightergray w-full"/>
 
             {/* DEEP LEARNING */}
             <section
                 id="dle"
-                className="flex flex-col mx-72 pt-6"
+                className="flex flex-col mx-72"
             >
-                <div className={`text-2xl ${font_bold.className}`}>
-                    Deep learning era
-                </div>
-                <div className="pt-4">
-                    Text goes here
-                </div>
+                <DeepLearning />
             </section>
+
+            <hr className="my-20 text-evenlightergray w-full"/>
 
             {/* DISCUSSION */}
             <section
                 id="discussion"
-                className="flex flex-col mx-72 pt-6"
+                className="flex flex-col mx-72"
             >
                 <div className={`text-2xl ${font_bold.className}`}>
                     Discussion
                 </div>
                 <div className="pt-4">
-                    Text goes here
+                    Need?
                 </div>
             </section>
+
+            <hr className="my-20 text-evenlightergray w-full"/>
 
             {/* REFERENCES */}
             <section
                 id="refs"
-                className="flex flex-col mx-72 pt-6 mb-20"
+                className="flex flex-col mx-72 mb-20"
             >
-                <div className={`text-2xl ${font_bold.className}`}>
+                <div className={`text-xl ${font_bold.className}`}>
                     References
                 </div>
                 <div className="pt-4">
@@ -122,7 +121,7 @@ const Main = () => {
                                 https://epoch.ai/data/ai-models
                             </a>
                             <span>
-                                [online resource]
+                                [online resource].
                             </span>
                         </li>
                     </ol>

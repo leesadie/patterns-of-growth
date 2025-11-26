@@ -6,7 +6,19 @@ import { GoArrowUpRight } from "react-icons/go";
 const Hero = () => {
     return (
         <div className="flex flex-col mx-72 items-center">
-            {/* TITLE */}
+            {/* Source code button */}
+            <div className="absolute top-3 right-5">
+                <div className="flex flex-row gap-1 group cursor-pointer transition duration-200 ease-in-out text-darkgray">
+                    <div className="text-sm group-hover:opacity-70">
+                        Source code
+                    </div>
+                    <div className="pt-0.5 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:opacity-70 transition duration-200">
+                        <GoArrowUpRight size={16}/>
+                    </div>
+                </div>
+            </div>
+            
+            {/* Title */}
             <div
                 id="title"
                 className="flex flex-col pt-28"
@@ -16,7 +28,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* ABOUT */}
+            {/* About */}
             <div className="flex flex-row justify-between pt-12 w-full">
                 <div className="flex flex-col gap-4">
                     <div className="text-sm text-lightergray">
@@ -44,19 +56,17 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-col gap-4">
                     <div className="text-sm text-lightergray">
-                        Resources
+                        Course
                     </div>
-                    <div className="flex flex-row gap-1 group cursor-pointer transition duration-200 ease-in-out text-darkgray">
-                        <div className="text-sm group-hover:opacity-70">
-                            Source code
-                        </div>
-                        <div className="pt-0.5 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:opacity-70 transition duration-200">
-                            <GoArrowUpRight size={16}/>
-                        </div>
+                    <div className="text-sm text-darkgray">
+                        DSCI 320
                     </div>
                 </div>
             </div>
             <hr className="mt-10 text-gray-300 w-full"/>
+            <div className="mt-10 w-full h-96 bg-evenlightergray">
+
+            </div>
         </div>
     );
 }

@@ -54,6 +54,7 @@ const Navbar = () => {
         return () => observer.disconnect();
     }, []);
 
+    // Scroll to section on click
     const handleClick = (id: string) => {
         const el = document.getElementById(id);
         if (el) {
@@ -65,16 +66,19 @@ const Navbar = () => {
     return (
         <nav
             className={`
-                ${isSticky ? "sticky top-4" : "absolute top-5/12"}
+                fixed
                 block
+                bg-white
+                p-2
                 w-fit
                 flex-col
                 space-y-2
                 transition-all
                 duration-300
+                ease-in-out
                 z-50
             `}
-            style={{ left: "2.5rem" }}
+            style={{ left: "2.5rem", top: isSticky ? "1rem" : `${(5/12) * 100}vh` }}
         >
             <div className={`text-large ${font_bold.className}`}>
                 Contents
