@@ -2,7 +2,7 @@
 
 import Hero from "./Hero";
 import Navbar from "../nav/Navbar";
-import { font_bold, font_med } from "@/app/fonts";
+import { font_med, font_head } from "@/app/fonts";
 import ReferenceHover from "../interaction/Reference";
 
 import Temporal from "./Temporal";
@@ -17,15 +17,18 @@ const Main = () => {
             {/* INTRO */}
             <section
                 id="intro"
-                className="flex flex-col mx-72 pt-6"
+                className="flex flex-col mx-72 pt-12"
             >
-                <div className={`text-2xl ${font_bold.className}`}>
-                    Introduction
+                <div className={`text-3xl ${font_head.className}`}>
+                    Overview
                 </div>
                 <div className="pt-4">
                     This report visualizes data related to the technical progress of artificial intelligence (AI) and the evolution of the ecosystem that has enabled it, across time and geography.
                 </div>
                 <div className="pt-4">
+                    <span className={`pr-1 ${font_med.className}`}>
+                        Dataset.
+                    </span>
                     <span>
                         We use the AI models dataset from Epoch AI{' '}
                     </span>
@@ -44,10 +47,20 @@ const Main = () => {
                     </span>
                 </div>
                 <div className="pt-4">
-                    The intended audience includes people with basic familiarity of AI model training and development, who are interested in understanding how different factors have shaped the trajectory of AI progress. We expect the audience to gain insight into how AI development has evolved and its trends of growth over time.
+                    <span className={`pr-1 ${font_med.className}`}>
+                        Audience.
+                    </span>
+                    <span>
+                        The intended audience includes people with basic familiarity of AI model training and development, who are interested in understanding how different factors have shaped the trajectory of AI progress. We expect the audience to gain insight into how AI development has evolved and its trends of growth over time.
+                    </span>
                 </div>
                 <div className="pt-4">
-                    [General takeaways go here]
+                    <span className={`pr-1 ${font_med.className}`}>
+                        General takeaways.
+                    </span>
+                    <span>
+                        We hope the audience can explore the temporal patterns of how models have scaled over time, geographic patterns of where model development is concentrated at the global level, and cost and efficiency patterns of training as models have advanced.
+                    </span>
                 </div>
             </section>
 
@@ -83,16 +96,16 @@ const Main = () => {
 
             <hr className="my-20 text-evenlightergray w-full"/>
 
-            {/* DISCUSSION */}
+            {/* SUMMARY */}
             <section
-                id="discussion"
+                id="summary"
                 className="flex flex-col mx-72"
             >
-                <div className={`text-2xl ${font_bold.className}`}>
-                    Discussion
+                <div className={`text-3xl ${font_head.className}`}>
+                    Summary
                 </div>
                 <div className="pt-4">
-                    Need?
+                    Stuff here
                 </div>
             </section>
 
@@ -103,7 +116,7 @@ const Main = () => {
                 id="refs"
                 className="flex flex-col mx-72 mb-20"
             >
-                <div className={`text-xl ${font_bold.className}`}>
+                <div className={`text-3xl ${font_head.className}`}>
                     References
                 </div>
                 <div className="pt-4">

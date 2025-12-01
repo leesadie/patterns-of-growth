@@ -1,6 +1,6 @@
 'use client';
 
-import { font_bold, font_med } from "@/app/fonts";
+import { font_bold, font_med, font_head } from "@/app/fonts";
 import Accordion from "../interaction/Accordion";
 import AccordionItem from "../interaction/AccordionItem";
 import ChartWrapper from "../vis/ChartWrapper";
@@ -15,20 +15,17 @@ const Chart = dynamic(() => import('../vis/Chart'), {
 const Temporal = () => {
     return (
         <div>
-            <div className={`text-2xl ${font_bold.className}`}>
-                Temporal patterns
+            <div className={`text-3xl ${font_head.className}`}>
+                Sadie: Temporal patterns
             </div>
 
             {/* VIEW 1 */}
-            <div className={`text-xl pt-10 ${font_bold.className}`}>
-                1. Scaling of training metrics
+            <div className={`pt-6 text-lg ${font_med.className}`}>
+                View 1 - AI Model Progress Over Time
             </div>
-            <ChartWrapper maxWidth={1000} className="pr-20" outerClass="pt-6">
-                <Chart path="/charts/temporal/chart1.json" id="chart1" />
-            </ChartWrapper>
-            <div className="pt-8">
+            <div className="pt-6">
                 <Accordion>
-                    <AccordionItem title="About" defaultOpen>
+                    <AccordionItem title="Questions">
                         <div className="pt-2">
                             <span>
                                 This view aims to answer,
@@ -37,11 +34,11 @@ const Temporal = () => {
                                 "How have training compute, parameter count, power draw, training cost, and training time scaled over time, and how do these trends differ across domains, countries, and organization types?"
                             </span>
                             <span>
-                                . A hexbin plot visualizes the aggregated mean of the selected y-axis metric, with an x-axis brush linked to the below scatterplot. The high concentration and overlap of points in the deep learning era (2010-present) is thus addressed where users are able to view overall temporal patterns while maintaining model-level granularity.    
-                            </span> 
+                                .
+                            </span>
                         </div>
                     </AccordionItem>
-                    <AccordionItem title="Analytic tasks">
+                    <AccordionItem title="Low-level tasks">
                         <div className="flex flex-col gap-1 pt-2">
                             <div className="flex flex-row gap-1">
                                 <div className={`${font_med.className}`}>
@@ -69,7 +66,14 @@ const Temporal = () => {
                             </div>
                         </div>
                     </AccordionItem>
-                    <AccordionItem title="Visualization deconstruction">
+                </Accordion>
+            </div>
+            <ChartWrapper maxWidth={1000} className="pr-20" outerClass="pt-12">
+                <Chart path="/charts/temporal/chart1.json" id="chart1" />
+            </ChartWrapper>
+            <div className="pt-8">
+                <Accordion>
+                    <AccordionItem title="Description and characteristics">
                         <div className="flex flex-col gap-1 pt-2">
                             <div className={`${font_med.className}`}>
                                 Marks
@@ -152,15 +156,12 @@ const Temporal = () => {
             </div>
             
             {/* VIEW 2 */}
-            <div className={`text-xl pt-32 ${font_bold.className}`}>
-                2. Evolution of model accessibility
+            <div className={`pt-32 text-lg ${font_med.className}`}>
+                View 2 - Evolution of Model Accessibility
             </div>
-            <ChartWrapper maxWidth={1100} outerClass="pt-6">
-                <Chart path="/charts/temporal/chart2.json" id="chart2"/>
-            </ChartWrapper>
-            <div className="pt-8">
+            <div className="pt-6">
                 <Accordion>
-                    <AccordionItem title="About" defaultOpen>
+                    <AccordionItem title="Questions">
                         <div className="pt-2">
                             <span>
                                 This view aims to answer,
@@ -169,11 +170,11 @@ const Temporal = () => {
                                 "How have model accessibility levels changed over time, and how does this correlate with training compute?"
                             </span>
                             <span>
-                                . An aggregated line chart visualizes compute levels for open versus closed models over time, and a bar chart displays each model accessibility level for the brush selected year range. 
-                            </span> 
+                                .
+                            </span>
                         </div>
                     </AccordionItem>
-                    <AccordionItem title="Analytic tasks">
+                    <AccordionItem title="Low-level tasks">
                         <div className="flex flex-col gap-1 pt-2">
                             <div className="flex flex-row gap-1">
                                 <div className={`${font_med.className}`}>
@@ -193,7 +194,14 @@ const Temporal = () => {
                             </div>
                         </div>
                     </AccordionItem>
-                    <AccordionItem title="Visualization deconstruction">
+                </Accordion>
+            </div>
+            <ChartWrapper maxWidth={1100} outerClass="pt-12">
+                <Chart path="/charts/temporal/chart2.json" id="chart2"/>
+            </ChartWrapper>
+            <div className="pt-8">
+                <Accordion>
+                    <AccordionItem title="Description and characteristics">
                         <div className="flex flex-col gap-1 pt-2">
                             <div className={`${font_med.className}`}>
                                 Marks
@@ -250,28 +258,25 @@ const Temporal = () => {
             </div>
 
             {/* VIEW 3 */}
-            <div className={`text-xl pt-32 ${font_bold.className}`}>
-                3. Growth of resource efficiency
+            <div className={`pt-32 text-lg ${font_med.className}`}>
+                View 3 - Resource Efficiency Over TIme
             </div>
-            <ChartWrapper maxWidth={1000} outerClass="pt-6">
-                <Chart path="/charts/temporal/chart3.json" id="chart3"/>
-            </ChartWrapper>
-            <div className="pt-8">
+            <div className="pt-6">
                 <Accordion>
-                    <AccordionItem title="About" defaultOpen>
+                    <AccordionItem title="Questions">
                         <div className="pt-2">
                             <span>
-                            This view aims to answer,
-                        </span>
-                        <span className={`pl-1 ${font_med.className}`}>
-                            "How has model resource efficiency (i.e. cost per FLOP, cost per parameter, compute per dollar, compute per watt) evolved over time, and do metrics exhibit diminishing returns?"
-                        </span>
-                        <span>
-                            . An overall line chart visualizes an aggregated efficiency index over time, with a grouped bar chart displaying the breakdown of metrics for each year in the brush selected year range and a scatterplot showing compute versus the aggregated efficiency index for the selected year range.
-                        </span> 
+                                This view aims to answer,
+                            </span>
+                            <span className={`pl-1 ${font_med.className}`}>
+                                "How has model resource efficiency (i.e. cost per FLOP, cost per parameter, compute per dollar, compute per watt) evolved over time, and do metrics exhibit diminishing returns?"
+                            </span>
+                            <span>
+                                .
+                            </span> 
                         </div>
                     </AccordionItem>
-                    <AccordionItem title="Analytic tasks">
+                    <AccordionItem title="Low-level tasks">
                         <div className="flex flex-col gap-1 pt-2">
                             <div className="flex flex-row gap-1">
                                 <div className={`${font_med.className}`}>
@@ -299,7 +304,14 @@ const Temporal = () => {
                             </div>
                         </div>
                     </AccordionItem>
-                    <AccordionItem title="Visualization deconstruction">
+                </Accordion>
+            </div>
+            <ChartWrapper maxWidth={1000} outerClass="pt-12">
+                <Chart path="/charts/temporal/chart3.json" id="chart3"/>
+            </ChartWrapper>
+            <div className="pt-8">
+                <Accordion>
+                    <AccordionItem title="Description and characteristics">
                         <div className="flex flex-col gap-1 pt-2">
                             <div className={`${font_med.className}`}>
                                 Marks
@@ -361,6 +373,20 @@ const Temporal = () => {
                         </div>
                     </AccordionItem>
                 </Accordion>
+            </div>
+
+            {/* Summary */}
+            <div className={`pt-12 text-lg ${font_med.className}`}>
+                Individual summary
+            </div>
+            <div className="pt-2">
+                Specific to my theme of temporal patterns, I have learnt that resource efficiency has not shown diminishing returns, i.e. as models have scaled over time in terms of training compute, average composite efficiency has also grown. Additionally, access to models has grown irrespective of scale in compute, with more models generally having open weights. 
+            </div>
+            <div className="pt-2">
+                By breaking down the data visualization process into separate parts to create these views, e.g. identifying low-level analytic tasks and making choices to use certain marks and channels, I have found that doing so enables more effective and appropriate visualizations for a question. Further, I now understand to a greater extent the benefit of using data visualization for large datasets, given the size of our own dataset, such that it is significantly easier to identify patterns and relationships. 
+            </div>
+            <div className="pt-2">
+                Regarding what I would do differently, I would want to get more feedback as to how my individual visualizations and overall views could be improved at various points throughout the visualization process. I would specifically look to people who fit the intended audience, and not rely only on TA or within-team feedback. 
             </div>
         </div>
     );

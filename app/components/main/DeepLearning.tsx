@@ -1,6 +1,6 @@
 'use client';
 
-import { font_bold, font_med } from "@/app/fonts";
+import { font_head } from "@/app/fonts";
 
 // Import and render Altair charts dynamically - allow for interactions
 import dynamic from "next/dynamic";
@@ -12,8 +12,8 @@ const Chart = dynamic(() => import('../vis/Chart'), {
 const DeepLearning = () => {
     return (
         <div>
-            <div className={`text-2xl ${font_bold.className}`}>
-                Deep learning era
+            <div className={`text-3xl ${font_head.className}`}>
+                Ignacio: Deep learning era
             </div>
 
             {/* VIEW 1 */}

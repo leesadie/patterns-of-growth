@@ -1,21 +1,24 @@
 'use client';
 
-import { font_bold } from "@/app/fonts";
+import { font_bold, font_head } from "@/app/fonts";
 import { GoArrowUpRight } from "react-icons/go";
+import Image from "next/image";
 
 const Hero = () => {
     return (
         <div className="flex flex-col mx-72 items-center">
             {/* Source code button */}
             <div className="absolute top-3 right-5">
-                <div className="flex flex-row gap-1 group cursor-pointer transition duration-200 ease-in-out text-darkgray">
-                    <div className="text-sm group-hover:opacity-70">
-                        Source code
+                <a href="https://github.com/leesadie/dsci320-web" target="_blank" rel="noopener noreferrer">
+                    <div className="flex flex-row gap-1 group cursor-pointer transition duration-200 ease-in-out text-darkgray">
+                        <div className="text-sm group-hover:opacity-70">
+                            Source code
+                        </div>
+                        <div className="pt-0.5 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:opacity-70 transition duration-200">
+                            <GoArrowUpRight size={16}/>
+                        </div>
                     </div>
-                    <div className="pt-0.5 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:opacity-70 transition duration-200">
-                        <GoArrowUpRight size={16}/>
-                    </div>
-                </div>
+                </a>
             </div>
             
             {/* Title */}
@@ -23,7 +26,7 @@ const Hero = () => {
                 id="title"
                 className="flex flex-col pt-28"
             >
-                <div className={`text-5xl/14 ${font_bold.className}`}>
+                <div className={`text-[52px]/14 ${font_head.className}`}>
                     Patterns of Growth: Mapping the Trajectory of AI Model Development
                 </div>
             </div>
@@ -51,7 +54,7 @@ const Hero = () => {
                         Published
                     </div>
                     <div className="text-sm text-darkgray">
-                        November 30, 2025
+                        December 4, 2025
                     </div>
                 </div>
                 <div className="flex flex-col gap-4">
@@ -64,9 +67,18 @@ const Hero = () => {
                 </div>
             </div>
             <hr className="mt-10 text-gray-300 w-full"/>
-            <div className="mt-10 w-full h-96 bg-evenlightergray">
-
-            </div>
+            {/*
+            <a href="/models-tree" rel="noopener noreferrer" target="_blank" className="w-full mt-10">
+                <div className="relative w-full h-96 bg-evenlightergray">
+                    <Image 
+                        src='/images/hero3.svg'
+                        alt="hero test"
+                        fill={true}
+                        className="object-cover"
+                    />
+                </div>
+            </a>
+            */}
         </div>
     );
 }

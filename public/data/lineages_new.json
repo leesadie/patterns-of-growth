@@ -1,0 +1,1705 @@
+{
+  "tree": {
+    "root": {
+      "id": "Perceptron Mark I",
+      "year": 1957,
+      "displayName": "Perceptron Mark I",
+      "metadata": {
+        "architecture": "Perceptron",
+        "organization": "Cornell Aeronautical Laboratory,Cornell University",
+        "domain": "Other",
+        "parameters": 1000.0,
+        "training_compute": 694894.9377361819,
+        "training_time": null,
+        "training_cost": null,
+        "power_draw": null,
+        "citations": 1610,
+        "notable": true
+      }
+    },
+    "color": "#DD9B71",
+    "children": [
+      {
+        "id": "cnn_branch",
+        "color": "#7C9A24",
+        "nodes": [
+          {
+            "id": "Neocognitron",
+            "year": 1980,
+            "displayName": "Neocognitron",
+            "metadata": {
+              "architecture": "Early neural network",
+              "organization": "NHK Broadcasting Science Research Laboratories",
+              "domain": "Vision",
+              "parameters": 1140576.0,
+              "training_compute": 273738240.0,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 5782,
+              "notable": true
+            }
+          },
+          {
+            "id": "Error Propagation",
+            "year": 1986,
+            "displayName": "Error Propagation",
+            "metadata": {
+              "architecture": "Early neural network",
+              "organization": "University of California San Diego,Carnegie Mellon University",
+              "domain": "Vision",
+              "parameters": null,
+              "training_compute": null,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 27322,
+              "notable": true
+            }
+          },
+          {
+            "id": "Back-propagation",
+            "year": 1986,
+            "displayName": "Backpropagation",
+            "metadata": {
+              "architecture": "Early neural network",
+              "organization": "University of California San Diego,Carnegie Mellon University",
+              "domain": "Mathematics",
+              "parameters": 720.0,
+              "training_compute": 673920000.0,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 28758,
+              "notable": true
+            }
+          },
+          {
+            "id": "Handwritten Digit Recognition System",
+            "year": 1989,
+            "displayName": "Handwritten Digit Recognition System",
+            "metadata": {
+              "architecture": "CNN",
+              "organization": "AT&T",
+              "domain": "Vision",
+              "parameters": 2578.0,
+              "training_compute": 181440000000.0,
+              "training_time": 72.0,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": null,
+              "notable": true
+            }
+          },
+          {
+            "id": "LeNet-5",
+            "year": 1998,
+            "displayName": "LeNet-5",
+            "metadata": {
+              "architecture": "CNN",
+              "organization": "AT&T",
+              "domain": "Vision",
+              "parameters": 60000.0,
+              "training_compute": 2810937600000.0,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 56354,
+              "notable": true
+            }
+          },
+          {
+            "id": "ReLU",
+            "year": 2010,
+            "displayName": "ReLU",
+            "metadata": {
+              "architecture": "CNN",
+              "organization": "University of Toronto",
+              "domain": "Vision",
+              "parameters": null,
+              "training_compute": null,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 17818,
+              "notable": true
+            }
+          },
+          {
+            "id": "Dropout",
+            "year": 2012,
+            "displayName": "Dropout",
+            "metadata": {
+              "architecture": "CNN",
+              "organization": "University of Toronto",
+              "domain": "Vision",
+              "parameters": null,
+              "training_compute": 2.731968e+17,
+              "training_time": 96.0,
+              "training_cost": 7.952555832759744,
+              "power_draw": null,
+              "citations": 7743,
+              "notable": true
+            }
+          },
+          {
+            "id": "AlexNet",
+            "year": 2012,
+            "displayName": "AlexNet",
+            "metadata": {
+              "architecture": "CNN",
+              "organization": "University of Toronto",
+              "domain": "Vision",
+              "parameters": 60000000.0,
+              "training_compute": 4.7e+17,
+              "training_time": 132.0,
+              "training_cost": 15.56975299843643,
+              "power_draw": null,
+              "citations": 122860,
+              "notable": true
+            }
+          },
+          {
+            "id": "VGG19",
+            "year": 2014,
+            "displayName": "VGG19",
+            "metadata": {
+              "architecture": "CNN",
+              "organization": "University of Oxford",
+              "domain": "Vision",
+              "parameters": 144000000.0,
+              "training_compute": 1.1e+19,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 103085,
+              "notable": true
+            }
+          },
+          {
+            "id": "GoogLeNet / InceptionV1",
+            "year": 2014,
+            "displayName": "InceptionV1",
+            "metadata": {
+              "architecture": "CNN",
+              "organization": "Google,University of Michigan,University of North Carolina",
+              "domain": "Vision",
+              "parameters": 6797700.0,
+              "training_compute": 1.51e+18,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 44511,
+              "notable": true
+            }
+          },
+          {
+            "id": "ResNet-101",
+            "year": 2015,
+            "displayName": "ResNet-101",
+            "metadata": {
+              "architecture": "CNN",
+              "organization": "Microsoft",
+              "domain": "Vision",
+              "parameters": 44500000.0,
+              "training_compute": 7.004e+18,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 203234,
+              "notable": true
+            }
+          },
+          {
+            "id": "DenseNet-264",
+            "year": 2016,
+            "displayName": "DenseNet-264",
+            "metadata": {
+              "architecture": "CNN",
+              "organization": "Tsinghua University,Facebook AI Research,Cornell University",
+              "domain": "Vision",
+              "parameters": 34000000.0,
+              "training_compute": null,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 38337,
+              "notable": true
+            }
+          },
+          {
+            "id": "Xception",
+            "year": 2016,
+            "displayName": "Xception",
+            "metadata": {
+              "architecture": "CNN",
+              "organization": "Google",
+              "domain": "Vision",
+              "parameters": 22855952.0,
+              "training_compute": 4.36e+20,
+              "training_time": 720.0,
+              "training_cost": 13108.852355728606,
+              "power_draw": 37828.64014138488,
+              "citations": 15326,
+              "notable": true
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "audio_cnn",
+            "color": "#ACCE45",
+            "nodes": [
+              {
+                "id": "WaveNet",
+                "year": 2016,
+                "displayName": "WaveNet",
+                "metadata": {
+                  "architecture": "CNN",
+                  "organization": "Google DeepMind",
+                  "domain": "Audio",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 7633,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Big-Little Net",
+                "year": 2018,
+                "displayName": "Big-Little Net",
+                "metadata": {
+                  "architecture": "CNN",
+                  "organization": "IBM",
+                  "domain": "Audio",
+                  "parameters": 77360000.0,
+                  "training_compute": 2.46048e+17,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 98,
+                  "notable": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "transformer_branch",
+        "color": "#39758D",
+        "nodes": [
+          {
+            "id": "LSTM",
+            "year": 2018,
+            "displayName": "LSTM",
+            "metadata": {
+              "architecture": "RNN",
+              "organization": "DeepMind,University College London",
+              "domain": "Language",
+              "parameters": 530442240.0,
+              "training_compute": 3.33e+19,
+              "training_time": 144.0,
+              "training_cost": 590.5320553042133,
+              "power_draw": 4153.309685987008,
+              "citations": 47,
+              "notable": false
+            }
+          },
+          {
+            "id": "RNN LM",
+            "year": 2010,
+            "displayName": "RNN LM",
+            "metadata": {
+              "architecture": "RNN",
+              "organization": "Johns Hopkins University",
+              "domain": "Language",
+              "parameters": 70265000.0,
+              "training_compute": 5.396e+16,
+              "training_time": 504.0,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 5959,
+              "notable": true
+            }
+          },
+          {
+            "id": "GRUs",
+            "year": 2014,
+            "displayName": "GRUs",
+            "metadata": {
+              "architecture": "RNN",
+              "organization": "University of Montreal,Jacobs University,University of Maine",
+              "domain": "Language",
+              "parameters": null,
+              "training_compute": null,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 24048,
+              "notable": true
+            }
+          },
+          {
+            "id": "Seq2Seq LSTM",
+            "year": 2014,
+            "displayName": "Seq2Seq LSTM",
+            "metadata": {
+              "architecture": "RNN",
+              "organization": "Google",
+              "domain": "Language",
+              "parameters": 1920000000.0,
+              "training_compute": 5.6e+19,
+              "training_time": 240.0,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 20922,
+              "notable": true
+            }
+          },
+          {
+            "id": "RNNsearch-50*",
+            "year": 2014,
+            "displayName": "RNNsearch-50*",
+            "metadata": {
+              "architecture": "RNN",
+              "organization": "Jacobs University Bremen,University of Montreal",
+              "domain": "Language",
+              "parameters": null,
+              "training_compute": 1.5552e+18,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 27772,
+              "notable": true
+            }
+          },
+          {
+            "id": "Transformer",
+            "year": 2017,
+            "displayName": "Transformer",
+            "metadata": {
+              "architecture": "Transformer (encoder-decoder)",
+              "organization": "Google Research,Google Brain",
+              "domain": "Language",
+              "parameters": 213000000.0,
+              "training_compute": 7.4245248e+18,
+              "training_time": 84.0,
+              "training_cost": 438.0356518424336,
+              "power_draw": 4180.032869488383,
+              "citations": 144445,
+              "notable": true
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "gpt_family",
+            "color": "#4796B5",
+            "nodes": [
+              {
+                "id": "GPT-1",
+                "year": 2018,
+                "displayName": "GPT-1",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "OpenAI",
+                  "domain": "Language",
+                  "parameters": 117000000.0,
+                  "training_compute": 1.7578125e+19,
+                  "training_time": 720.0,
+                  "training_cost": null,
+                  "power_draw": 663.5535559333689,
+                  "citations": 12863,
+                  "notable": true
+                }
+              },
+              {
+                "id": "GPT-3 13B",
+                "year": 2020,
+                "displayName": "GPT-3 13B",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "OpenAI",
+                  "domain": "Language",
+                  "parameters": 12850000000.0,
+                  "training_compute": 2.31e+22,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 47064,
+                  "notable": false
+                }
+              },
+              {
+                "id": "GPT-3.5",
+                "year": 2022,
+                "displayName": "GPT-3.5",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "OpenAI",
+                  "domain": "Language",
+                  "parameters": null,
+                  "training_compute": 2.578e+24,
+                  "training_time": null,
+                  "training_cost": 4805631.250163697,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "GPT-4",
+                "year": 2023,
+                "displayName": "GPT-4",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "OpenAI",
+                  "domain": "Multimodal",
+                  "parameters": 1800000000000.0,
+                  "training_compute": 2.1e+25,
+                  "training_time": 2280.0,
+                  "training_cost": 42166697.17422247,
+                  "power_draw": 19944368.12599428,
+                  "citations": 17779,
+                  "notable": true
+                }
+              },
+              {
+                "id": "GPT-4.5",
+                "year": 2025,
+                "displayName": "GPT-4.5",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "OpenAI",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": 2.1000001e+26,
+                  "training_time": null,
+                  "training_cost": 187871247.85797697,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "GPT-5",
+                "year": 2025,
+                "displayName": "GPT-5",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "OpenAI",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "llama_family",
+            "color": "#4796B5",
+            "nodes": [
+              {
+                "id": "LLaMA-7B",
+                "year": 2023,
+                "displayName": "LlaMa-7B",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Zhejiang University",
+                  "domain": "Multimodal",
+                  "parameters": 7000000000.0,
+                  "training_compute": 2.78e+22,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 108,
+                  "notable": false
+                }
+              },
+              {
+                "id": "Llama 2-70B",
+                "year": 2023,
+                "displayName": "Llama 2-70B",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Meta AI",
+                  "domain": "Language",
+                  "parameters": 70000000000.0,
+                  "training_compute": 8.1e+23,
+                  "training_time": 1728.0,
+                  "training_cost": 1102561.194,
+                  "power_draw": 795557.0703894598,
+                  "citations": 13685,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Llama 3-70B",
+                "year": 2024,
+                "displayName": "Llama 3-70B",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Meta AI",
+                  "domain": "Language",
+                  "parameters": 70000000000.0,
+                  "training_compute": 7.861e+24,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Llama 4 Scout",
+                "year": 2025,
+                "displayName": "Llama 4",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Meta AI",
+                  "domain": "Multimodal",
+                  "parameters": 109000000000.0,
+                  "training_compute": 4.08e+24,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "mistral_family",
+            "color": "#4796B5",
+            "nodes": [
+              {
+                "id": "Mistral 7B",
+                "year": 2023,
+                "displayName": "Mistral 7B",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Mistral AI",
+                  "domain": "Language",
+                  "parameters": 7000000000.0,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 2594,
+                  "notable": false
+                }
+              },
+              {
+                "id": "Mixtral 8x7B",
+                "year": 2023,
+                "displayName": "Mixtral 8x7B",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Mistral AI",
+                  "domain": "Language",
+                  "parameters": 46700000000.0,
+                  "training_compute": 7.74e+23,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Mistral Large",
+                "year": 2024,
+                "displayName": "Mistral Large",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Mistral AI",
+                  "domain": "Language",
+                  "parameters": null,
+                  "training_compute": 1.12e+25,
+                  "training_time": 2500.0,
+                  "training_cost": 14110111.93,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Mistral Small 3",
+                "year": 2025,
+                "displayName": "Mistral Small 3",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Mistral AI",
+                  "domain": "Language",
+                  "parameters": 24000000000.0,
+                  "training_compute": 1.152e+24,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": false
+                }
+              }
+            ]
+          },
+          {
+            "id": "deepseek_family",
+            "color": "#4796B5",
+            "nodes": [
+              {
+                "id": "DeepSeek LLM 7B",
+                "year": 2024,
+                "displayName": "DeepSeek LLM 7B",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "DeepSeek",
+                  "domain": "Language",
+                  "parameters": 7000000000.0,
+                  "training_compute": 8.4e+22,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": false
+                }
+              },
+              {
+                "id": "DeepSeek-V3",
+                "year": 2024,
+                "displayName": "DeepSeek-V3",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "DeepSeek",
+                  "domain": "Language",
+                  "parameters": 671000000000.0,
+                  "training_compute": 3.4078e+24,
+                  "training_time": null,
+                  "training_cost": 5390000.0,
+                  "power_draw": 2818135.1812142837,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "DeepSeek-R1-Distill-Qwen-32B",
+                "year": 2025,
+                "displayName": "DeepSeek-R1",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "DeepSeek",
+                  "domain": "Language",
+                  "parameters": 32000000000.0,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": false
+                }
+              }
+            ]
+          },
+          {
+            "id": "grok_family",
+            "color": "#4796B5",
+            "nodes": [
+              {
+                "id": "Grok-0",
+                "year": 2023,
+                "displayName": "Grok 0",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "xAI",
+                  "domain": "Language",
+                  "parameters": 33000000000.0,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": false
+                }
+              },
+              {
+                "id": "Grok-1",
+                "year": 2023,
+                "displayName": "Grok 1",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "xAI",
+                  "domain": "Language",
+                  "parameters": 314000000000.0,
+                  "training_compute": 2.90000000001e+24,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Grok-2",
+                "year": 2024,
+                "displayName": "Grok 2",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "xAI",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": 2.9599999999999996e+25,
+                  "training_time": null,
+                  "training_cost": 31602310.530835517,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Grok 3",
+                "year": 2025,
+                "displayName": "Grok 3",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "xAI",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": 3.5000000000000006e+26,
+                  "training_time": 2160.0,
+                  "training_cost": 217835545.5267339,
+                  "power_draw": 109948656.20196916,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Grok 4",
+                "year": 2025,
+                "displayName": "Grok 4",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "xAI",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": 5.0000000000001e+26,
+                  "training_time": null,
+                  "training_cost": 387830439.15113616,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "gemini_family",
+            "color": "#55B7DE",
+            "nodes": [
+              {
+                "id": "Gemini 1.0 Pro",
+                "year": 2023,
+                "displayName": "Gemini 1.0 Pro",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Google DeepMind",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": 1.830001e+24,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 633,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Gemini 1.5 Pro",
+                "year": 2024,
+                "displayName": "Gemini 1.5 Pro",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Google DeepMind",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": 1.580001e+25,
+                  "training_time": null,
+                  "training_cost": 8034059.174468736,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Gemini-Exp-1114",
+                "year": 2024,
+                "displayName": "Gemini-Exp-1114",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Google DeepMind",
+                  "domain": "Language",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Gemini 2.0 Pro",
+                "year": 2024,
+                "displayName": "Gemini 2.0 Pro",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Google DeepMind",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Gemini 2.5 Pro",
+                "year": 2025,
+                "displayName": "Gemini 2.5 Pro",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Google DeepMind",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "claude_family",
+            "color": "#55B7DE",
+            "nodes": [
+              {
+                "id": "Claude",
+                "year": 2023,
+                "displayName": "Claude",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Anthropic",
+                  "domain": "Language",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Claude 2",
+                "year": 2023,
+                "displayName": "Claude 2",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Anthropic",
+                  "domain": "Language",
+                  "parameters": null,
+                  "training_compute": 3.866e+24,
+                  "training_time": null,
+                  "training_cost": 4902644.123383027,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Claude 3 Opus",
+                "year": 2024,
+                "displayName": "Claude 3 Opus",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Anthropic",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": 1.640001e+25,
+                  "training_time": null,
+                  "training_cost": 17106058.0886546,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Claude Opus 4",
+                "year": 2025,
+                "displayName": "Claude Opus 4",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Anthropic",
+                  "domain": "Multimodal",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "vit_line",
+            "color": "#62D0FB",
+            "nodes": [
+              {
+                "id": "ViT-Huge/14",
+                "year": 2020,
+                "displayName": "ViT-Huge/14",
+                "metadata": {
+                  "architecture": "Vision transformer",
+                  "organization": "Google Brain,Google Research",
+                  "domain": "Vision",
+                  "parameters": 632000000.0,
+                  "training_compute": 4.262e+21,
+                  "training_time": null,
+                  "training_cost": 6724.023241261178,
+                  "power_draw": null,
+                  "citations": 47228,
+                  "notable": true
+                }
+              },
+              {
+                "id": "CLIP",
+                "year": 2021,
+                "displayName": "CLIP",
+                "metadata": {
+                  "architecture": "Vision transformer",
+                  "organization": "OpenAI",
+                  "domain": "Multimodal",
+                  "parameters": 370000000.0,
+                  "training_compute": 1.05e+22,
+                  "training_time": 288.0,
+                  "training_cost": 24638.51841340951,
+                  "power_draw": 155922.57638758916,
+                  "citations": 35452,
+                  "notable": true
+                }
+              },
+              {
+                "id": "ViT-G/14",
+                "year": 2021,
+                "displayName": "ViT-G/14",
+                "metadata": {
+                  "architecture": "Vision transformer",
+                  "organization": "Google Research",
+                  "domain": "Vision",
+                  "parameters": 3005000000.0,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 608,
+                  "notable": true
+                }
+              },
+              {
+                "id": "DETR",
+                "year": 2020,
+                "displayName": "DETR",
+                "metadata": {
+                  "architecture": "Vision transformer",
+                  "organization": "Facebook",
+                  "domain": "Vision",
+                  "parameters": 60000000.0,
+                  "training_compute": 4e+20,
+                  "training_time": null,
+                  "training_cost": 959.9097627206426,
+                  "power_draw": null,
+                  "citations": 14440,
+                  "notable": true
+                }
+              },
+              {
+                "id": "DINOv2",
+                "year": 2023,
+                "displayName": "DINOv2",
+                "metadata": {
+                  "architecture": "Vision transformer",
+                  "organization": "Facebook AI Research,INRIA",
+                  "domain": "Vision",
+                  "parameters": 1140000000.0,
+                  "training_compute": 7.41851136e+21,
+                  "training_time": null,
+                  "training_cost": 10203.60518105836,
+                  "power_draw": null,
+                  "citations": 4783,
+                  "notable": true
+                }
+              },
+              {
+                "id": "YOLOv3",
+                "year": 2018,
+                "displayName": "YOLOv3",
+                "metadata": {
+                  "architecture": "Vision transformer",
+                  "organization": "University of Washington",
+                  "domain": "Vision",
+                  "parameters": 56933216.0,
+                  "training_compute": 1.3416380824e+19,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 22285,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Swin Transformer V2",
+                "year": 2021,
+                "displayName": "Swin Transformer V2",
+                "metadata": {
+                  "architecture": "Vision transformer",
+                  "organization": "Microsoft Research Asia",
+                  "domain": "Vision",
+                  "parameters": 3000000000.0,
+                  "training_compute": 1.1e+21,
+                  "training_time": null,
+                  "training_cost": 2326.6636503781665,
+                  "power_draw": null,
+                  "citations": 2076,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Masked Autoencoders ViT-H",
+                "year": 2021,
+                "displayName": "Masked Autoencoders ViT-H",
+                "metadata": {
+                  "architecture": "Vision transformer",
+                  "organization": "Facebook AI Research",
+                  "domain": "Vision",
+                  "parameters": 632000000.0,
+                  "training_compute": 4.6e+20,
+                  "training_time": 69.0,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 8884,
+                  "notable": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "audio_transformer_line",
+            "color": "#99CFFF",
+            "nodes": [
+              {
+                "id": "wave2vec 2.0 LARGE",
+                "year": 2020,
+                "displayName": "wave2vec 2.0",
+                "metadata": {
+                  "architecture": "Transformer (encoder)",
+                  "organization": "Facebook",
+                  "domain": "Audio",
+                  "parameters": 317000000.0,
+                  "training_compute": 3.87072e+21,
+                  "training_time": null,
+                  "training_cost": 5021.241075362514,
+                  "power_draw": null,
+                  "citations": 6617,
+                  "notable": true
+                }
+              },
+              {
+                "id": "VALL-E",
+                "year": 2023,
+                "displayName": "VALL-E",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Microsoft",
+                  "domain": "Audio",
+                  "parameters": 353000000.0,
+                  "training_compute": 1.01e+19,
+                  "training_time": null,
+                  "training_cost": 11.40575196486363,
+                  "power_draw": null,
+                  "citations": 900,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Lyria",
+                "year": 2023,
+                "displayName": "Lyria",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Google DeepMind",
+                  "domain": "Audio",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": false
+                }
+              },
+              {
+                "id": "AudioLM",
+                "year": 2023,
+                "displayName": "AudioLM",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Google Research",
+                  "domain": "Audio",
+                  "parameters": 1500000000.0,
+                  "training_compute": 3.9e+18,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 734,
+                  "notable": true
+                }
+              },
+              {
+                "id": "MusicLM",
+                "year": 2023,
+                "displayName": "MusicLM",
+                "metadata": {
+                  "architecture": "Transformer (encoder-decoder)",
+                  "organization": "Google",
+                  "domain": "Audio",
+                  "parameters": 860000000.0,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 535,
+                  "notable": true
+                }
+              },
+              {
+                "id": "MusicGen",
+                "year": 2023,
+                "displayName": "MusicGen",
+                "metadata": {
+                  "architecture": "Transformer (decoder)",
+                  "organization": "Meta AI",
+                  "domain": "Audio",
+                  "parameters": 3359000000.0,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 485,
+                  "notable": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "generation_branch",
+        "color": "#8A398D",
+        "nodes": [
+          {
+            "id": "Denoising Autoencoders",
+            "year": 2008,
+            "displayName": "Denoising Autoencoders",
+            "metadata": {
+              "architecture": "Autoencoder",
+              "organization": "University of Montreal",
+              "domain": "Vision",
+              "parameters": null,
+              "training_compute": null,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": 7741,
+              "notable": true
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "autoencoder_line",
+            "color": "#8A398D",
+            "nodes": [
+              {
+                "id": "Stacked Denoising Autoencoders",
+                "year": 2010,
+                "displayName": "Stacked Denoising Autoencoders",
+                "metadata": {
+                  "architecture": "Autoencoder",
+                  "organization": "University of Montreal,University of Toronto",
+                  "domain": "Vision",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 7262,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Deep Autoencoders",
+                "year": 2011,
+                "displayName": "Deep Autoencoders",
+                "metadata": {
+                  "architecture": "Autoencoder",
+                  "organization": "University of Toronto",
+                  "domain": "Vision",
+                  "parameters": 139808256.0,
+                  "training_compute": 3.672864e+16,
+                  "training_time": 48.0,
+                  "training_cost": null,
+                  "power_draw": 246.22598104391827,
+                  "citations": null,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Image generation",
+                "year": 2013,
+                "displayName": "VAE",
+                "metadata": {
+                  "architecture": "Autoencoder",
+                  "organization": "University of Amsterdam",
+                  "domain": "Vision",
+                  "parameters": 784000.0,
+                  "training_compute": 475200000000000.0,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 21760,
+                  "notable": true
+                }
+              },
+              {
+                "id": "VQ-VAE",
+                "year": 2017,
+                "displayName": "VQ-VAE",
+                "metadata": {
+                  "architecture": "Autoencoder",
+                  "organization": "DeepMind",
+                  "domain": "Vision",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "gan_line",
+            "color": "#BE5EC2",
+            "nodes": [
+              {
+                "id": "GANs",
+                "year": 2014,
+                "displayName": "GAN",
+                "metadata": {
+                  "architecture": "GAN",
+                  "organization": "University of Montreal",
+                  "domain": "Vision",
+                  "parameters": null,
+                  "training_compute": 5.184e+17,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 36870,
+                  "notable": true
+                }
+              },
+              {
+                "id": "ProgressiveGAN",
+                "year": 2017,
+                "displayName": "ProgressiveGAN",
+                "metadata": {
+                  "architecture": "GAN",
+                  "organization": "NVIDIA",
+                  "domain": "Vision",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 7676,
+                  "notable": true
+                }
+              },
+              {
+                "id": "WGAN",
+                "year": 2017,
+                "displayName": "WGAN",
+                "metadata": {
+                  "architecture": "GAN",
+                  "organization": "Facebook AI Research,Courant Institute of Mathematical Sciences",
+                  "domain": "Vision",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": null,
+                  "notable": false
+                }
+              },
+              {
+                "id": "StyleGAN",
+                "year": 2018,
+                "displayName": "StyleGAN",
+                "metadata": {
+                  "architecture": "GAN",
+                  "organization": "NVIDIA",
+                  "domain": "Vision",
+                  "parameters": 26200000.0,
+                  "training_compute": 3.93e+16,
+                  "training_time": 168.0,
+                  "training_cost": null,
+                  "power_draw": 4955.197627044293,
+                  "citations": 14496,
+                  "notable": true
+                }
+              },
+              {
+                "id": "StyleGAN2",
+                "year": 2019,
+                "displayName": "StyleGAN2",
+                "metadata": {
+                  "architecture": "GAN",
+                  "organization": "NVIDIA,Aalto University",
+                  "domain": "Vision",
+                  "parameters": 30000000.0,
+                  "training_compute": null,
+                  "training_time": 2016.0,
+                  "training_cost": null,
+                  "power_draw": 4916.068644931902,
+                  "citations": 7908,
+                  "notable": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "diffusion_line",
+            "color": "#E782EB",
+            "nodes": [
+              {
+                "id": "Denoising Diffusion Probabilistic Models",
+                "year": 2021,
+                "displayName": "Diffusion Probabilistic Models",
+                "metadata": {
+                  "architecture": "Diffusion model",
+                  "organization": "University of California Berkeley",
+                  "domain": "Vision",
+                  "parameters": 256000000.0,
+                  "training_compute": 7.840125000000001e+19,
+                  "training_time": null,
+                  "training_cost": 436.308484475363,
+                  "power_draw": null,
+                  "citations": 22043,
+                  "notable": true
+                }
+              },
+              {
+                "id": "DALL-E",
+                "year": 2021,
+                "displayName": "DALL-E",
+                "metadata": {
+                  "architecture": "Diffusion model",
+                  "organization": "OpenAI",
+                  "domain": "Vision",
+                  "parameters": 12000000000.0,
+                  "training_compute": 4.7e+22,
+                  "training_time": null,
+                  "training_cost": 125818.6901,
+                  "power_draw": 519741.92129196384,
+                  "citations": 5468,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Imagen",
+                "year": 2022,
+                "displayName": "Imagen",
+                "metadata": {
+                  "architecture": "Diffusion model",
+                  "organization": "Google Brain",
+                  "domain": "Vision",
+                  "parameters": 7762000000.0,
+                  "training_compute": 1.46e+22,
+                  "training_time": 96.0,
+                  "training_cost": 7915.823806150154,
+                  "power_draw": 87371.9285545078,
+                  "citations": 6802,
+                  "notable": true
+                }
+              },
+              {
+                "id": "Stable Diffusion 1.1",
+                "year": 2022,
+                "displayName": "Stable Diffusion 1.1",
+                "metadata": {
+                  "architecture": "Diffusion model",
+                  "organization": "Ludwig Maximilian University of Munich",
+                  "domain": "Vision",
+                  "parameters": null,
+                  "training_compute": null,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": 153873.61325387988,
+                  "citations": null,
+                  "notable": false
+                }
+              },
+              {
+                "id": "Stable Video Diffusion",
+                "year": 2023,
+                "displayName": "Stable Video Diffusion",
+                "metadata": {
+                  "architecture": "Diffusion model",
+                  "organization": "Stability AI",
+                  "domain": "Vision",
+                  "parameters": null,
+                  "training_compute": 6.7392e+22,
+                  "training_time": null,
+                  "training_cost": null,
+                  "power_draw": 304610.7835231759,
+                  "citations": null,
+                  "notable": false
+                }
+              }
+            ],
+            "children": [
+              {
+                "id": "sora_family",
+                "color": "#E782EB",
+                "nodes": [
+                  {
+                    "id": "Sora",
+                    "year": 2024,
+                    "displayName": "Sora",
+                    "metadata": {
+                      "architecture": "Diffusion model",
+                      "organization": "OpenAI",
+                      "domain": "Vision",
+                      "parameters": null,
+                      "training_compute": null,
+                      "training_time": null,
+                      "training_cost": null,
+                      "power_draw": null,
+                      "citations": null,
+                      "notable": true
+                    }
+                  },
+                  {
+                    "id": "Sora Turbo",
+                    "year": 2024,
+                    "displayName": "Sora Turbo",
+                    "metadata": {
+                      "architecture": "Diffusion model",
+                      "organization": "OpenAI",
+                      "domain": "Vision",
+                      "parameters": null,
+                      "training_compute": null,
+                      "training_time": null,
+                      "training_cost": null,
+                      "power_draw": null,
+                      "citations": null,
+                      "notable": true
+                    }
+                  },
+                  {
+                    "id": "Sora 2.0",
+                    "year": 2025,
+                    "displayName": "Sora 2.0",
+                    "metadata": {
+                      "architecture": "Diffusion model",
+                      "organization": "OpenAI",
+                      "domain": "Vision",
+                      "parameters": null,
+                      "training_compute": null,
+                      "training_time": null,
+                      "training_cost": null,
+                      "power_draw": null,
+                      "citations": null,
+                      "notable": true
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "veo_family",
+                "color": "#E782EB",
+                "nodes": [
+                  {
+                    "id": "Veo",
+                    "year": 2024,
+                    "displayName": "Veo",
+                    "metadata": {
+                      "architecture": "Diffusion model",
+                      "organization": "Google DeepMind",
+                      "domain": "Vision",
+                      "parameters": null,
+                      "training_compute": null,
+                      "training_time": null,
+                      "training_cost": null,
+                      "power_draw": null,
+                      "citations": null,
+                      "notable": false
+                    }
+                  },
+                  {
+                    "id": "Veo 2",
+                    "year": 2024,
+                    "displayName": "Veo 2",
+                    "metadata": {
+                      "architecture": "Diffusion model",
+                      "organization": "Google DeepMind",
+                      "domain": "Vision",
+                      "parameters": null,
+                      "training_compute": null,
+                      "training_time": null,
+                      "training_cost": null,
+                      "power_draw": null,
+                      "citations": null,
+                      "notable": true
+                    }
+                  },
+                  {
+                    "id": "Veo 3",
+                    "year": 2025,
+                    "displayName": "Veo 3",
+                    "metadata": {
+                      "architecture": "Diffusion model",
+                      "organization": "Google DeepMind",
+                      "domain": "Vision",
+                      "parameters": null,
+                      "training_compute": null,
+                      "training_time": null,
+                      "training_cost": null,
+                      "power_draw": null,
+                      "citations": null,
+                      "notable": true
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gnn_branch",
+        "color": "#7189DD",
+        "nodes": [
+          {
+            "id": "GNN",
+            "year": 2008,
+            "displayName": "GNN",
+            "metadata": {
+              "architecture": "GNN",
+              "organization": "University of Siena",
+              "domain": "nan",
+              "parameters": 30.0,
+              "training_compute": 1614600000.0,
+              "training_time": null,
+              "training_cost": null,
+              "power_draw": null,
+              "citations": null,
+              "notable": true
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "alpha_gnn",
+            "color": "#9BB1FF",
+            "nodes": [
+              {
+                "id": "AlphaFold",
+                "year": 2020,
+                "displayName": "AlphaFold",
+                "metadata": {
+                  "architecture": "GNN",
+                  "organization": "DeepMind",
+                  "domain": "Biology",
+                  "parameters": 16340840.0,
+                  "training_compute": 1e+20,
+                  "training_time": 120.0,
+                  "training_cost": null,
+                  "power_draw": null,
+                  "citations": 2773,
+                  "notable": true
+                }
+              },
+              {
+                "id": "AlphaFold 2",
+                "year": 2020,
+                "displayName": "AlphaFold 2",
+                "metadata": {
+                  "architecture": "GNN",
+                  "organization": "DeepMind",
+                  "domain": "Biology",
+                  "parameters": 93000000.0,
+                  "training_compute": 2.99e+21,
+                  "training_time": 264.0,
+                  "training_cost": 3841.772612266474,
+                  "power_draw": null,
+                  "citations": 29420,
+                  "notable": true
+                }
+              },
+              {
+                "id": "AlphaFold 3",
+                "year": 2024,
+                "displayName": "AlphaFold 3",
+                "metadata": {
+                  "architecture": "GNN",
+                  "organization": "Google DeepMind,Isomorphic Labs",
+                  "domain": "Biology",
+                  "parameters": null,
+                  "training_compute": 4.1405645e+22,
+                  "training_time": 480.0,
+                  "training_cost": null,
+                  "power_draw": 202329.0409413959,
+                  "citations": null,
+                  "notable": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "total_models": 3047,
+    "date_generated": "2025-11-29T18:49:50.770075"
+  }
+}

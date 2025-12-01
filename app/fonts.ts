@@ -14,3 +14,8 @@ export const font_bold = localFont({
     src: './fonts/HelveticaNeue-Bold-02.ttf',
     display: 'swap'
 })
+
+export const font_head = localFont({
+    src: './fonts/MessinaSerif-Book.ttf',
+    display: 'swap'
+})

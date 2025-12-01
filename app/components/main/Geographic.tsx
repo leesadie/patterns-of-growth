@@ -1,6 +1,6 @@
 'use client';
 
-import { font_bold, font_med } from "@/app/fonts";
+import { font_head } from "@/app/fonts";
 
 // Import and render Altair charts dynamically - allow for interactions
 import dynamic from "next/dynamic";
@@ -12,8 +12,8 @@ const Chart = dynamic(() => import('../vis/Chart'), {
 const Geographic = () => {
     return (
         <div>
-            <div className={`text-2xl ${font_bold.className}`}>
-                Geographic patterns
+            <div className={`text-3xl ${font_head.className}`}>
+                Rafa: Geographic patterns
             </div>
 
             {/* VIEW 1 */}

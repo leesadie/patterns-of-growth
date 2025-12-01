@@ -65,12 +65,17 @@
                 }
             },
             "height": 300,
-            "name": "view_10",
+            "name": "view_4",
             "title": {
                 "text": "Open and closed model log-mean compute",
                 "anchor": "start",
                 "frame": "group",
-                "offset": 10
+                "offset": 10,
+                "subtitle": [
+                    "Note that open refers to all levels of open weights, hosted access, and API access."
+                ],
+                "subtitleColor": "gray",
+                "subtitleFontSize": 10
             },
             "width": "container"
         },
@@ -109,7 +114,7 @@
                         "opacity": {
                             "condition": [
                                 {
-                                    "param": "param_4",
+                                    "param": "param_1",
                                     "value": 0.95
                                 }
                             ],
@@ -117,7 +122,7 @@
                         },
                         "stroke": {
                             "condition": {
-                                "param": "param_5",
+                                "param": "param_2",
                                 "value": "gray",
                                 "empty": false
                             },
@@ -125,7 +130,7 @@
                         },
                         "strokeWidth": {
                             "condition": {
-                                "param": "param_5",
+                                "param": "param_2",
                                 "value": 2,
                                 "empty": false
                             },
@@ -158,7 +163,7 @@
                             "type": "ordinal"
                         }
                     },
-                    "name": "view_9",
+                    "name": "view_3",
                     "title": {
                         "text": "Accessibility levels for year range",
                         "anchor": "start",
@@ -207,7 +212,7 @@
                             "transform": [
                                 {
                                     "filter": {
-                                        "param": "param_5",
+                                        "param": "param_2",
                                         "empty": false
                                     }
                                 },
@@ -266,7 +271,7 @@
                             "transform": [
                                 {
                                     "filter": {
-                                        "param": "param_5",
+                                        "param": "param_2",
                                         "empty": false
                                     }
                                 },
@@ -319,12 +324,12 @@
                 ]
             },
             "views": [
-                "view_10",
-                "view_9"
+                "view_4",
+                "view_3"
             ]
         },
         {
-            "name": "param_4",
+            "name": "param_1",
             "select": {
                 "type": "point",
                 "fields": [
@@ -333,11 +338,11 @@
             },
             "bind": "legend",
             "views": [
-                "view_9"
+                "view_3"
             ]
         },
         {
-            "name": "param_5",
+            "name": "param_2",
             "select": {
                 "type": "point",
                 "fields": [
@@ -345,7 +350,7 @@
                 ]
             },
             "views": [
-                "view_9"
+                "view_3"
             ]
         }
     ],
@@ -360,7 +365,7 @@
     "title": {
         "text": "AI model accessibility has diversified with narrowing compute gaps.",
         "anchor": "start",
-        "dx": 0,
+        "dx": 10,
         "dy": -10,
         "fontSize": 16,
         "subtitle": "Open versus closed models have converged in log-mean compute as levels of model accessibility have expanded.",
