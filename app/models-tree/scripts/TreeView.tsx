@@ -214,7 +214,15 @@ export default function TreeView() {
             <TreeLegend onBranchFilter={setFilteredBranch}/>
             <div
                 className="w-full h-full overflow-auto bg-treebg"
-                style={{ backgroundColor: '#EDEFF4' }}
+                style={{ 
+                    backgroundColor: '#EDEFF4',
+                    backgroundImage: `
+                        linear-gradient(#d1d5db 0.3px, transparent 0.3px),
+                        linear-gradient(90deg, #d1d5db 0.3px, transparent 0.3px)
+                    `,
+                    backgroundSize: '60px 60px',
+                    backgroundPosition: '-1px -1px'
+                }}
             >
                 <div className="relative top-5 left-8">
                     <h1 className={`text-4xl ${font_head.className}`}>

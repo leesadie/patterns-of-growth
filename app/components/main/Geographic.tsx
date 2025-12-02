@@ -13,7 +13,7 @@ const Geographic = () => {
     return (
         <div>
             <div className={`text-3xl ${font_head.className}`}>
-                Rafa: Geographic patterns
+                Geographic patterns
             </div>
 
             {/* VIEW 1 */}

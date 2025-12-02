@@ -27,7 +27,7 @@ const Main = () => {
                 </div>
                 <div className="pt-4">
                     <span className={`pr-1 ${font_med.className}`}>
-                        Dataset.
+                        Data.
                     </span>
                     <span>
                         We use the AI models dataset from Epoch AI{' '}
@@ -43,23 +43,7 @@ const Main = () => {
                         [1]
                     </ReferenceHover>
                     <span>
-                        , which contains over 3000 machine learning models released from 1950 to present (2025) and documents key factors that have driven progress. Models are collected from a variety of sources including literature reviews, historical accounts, publications, leading industry labs, bibliographies, pre-existing datasets on AI papers, and suggestions from contributors. To be included in the dataset, Epoch AI considered that an ML model must 1) have reliable documentation and relevance to machine learning, 2) include a learning component, i.e. not be a non-learned algorithm, and 3) have actually been trained, not a purely theoretical description.
-                    </span>
-                </div>
-                <div className="pt-4">
-                    <span className={`pr-1 ${font_med.className}`}>
-                        Audience.
-                    </span>
-                    <span>
-                        The intended audience includes people with basic familiarity of AI model training and development, who are interested in understanding how different factors have shaped the trajectory of AI progress. We expect the audience to gain insight into how AI development has evolved and its trends of growth over time.
-                    </span>
-                </div>
-                <div className="pt-4">
-                    <span className={`pr-1 ${font_med.className}`}>
-                        General takeaways.
-                    </span>
-                    <span>
-                        We hope the audience can explore the temporal patterns of how models have scaled over time, geographic patterns of where model development is concentrated at the global level, and cost and efficiency patterns of training as models have advanced.
+                        , which contains over 3000 machine learning models released from 1950 to present (2025) and documents key factors that have driven progress. Models are collected from a variety of sources including literature reviews, historical accounts, publications, leading industry labs, bibliographies, pre-existing datasets on AI papers, and suggestions from contributors. 
                     </span>
                 </div>
             </section>

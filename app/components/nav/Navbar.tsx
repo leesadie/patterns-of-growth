@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 import { font_med, font_bold } from "@/app/fonts";
 
 const sections = [
-    { id: "intro", label: "Introduction" },
+    { id: "intro", label: "Overview" },
     { id: "temporal", label: "Temporal patterns" },
     { id: "geo", label: "Geographic patterns" },
     { id: "dle", label: "Deep learning era" },
-    { id: "discussion", label: "Discussion" }
+    { id: "summary", label: "Summary" }
 ]
 
 const Navbar = () => {

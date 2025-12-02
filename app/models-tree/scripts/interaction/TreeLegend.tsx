@@ -14,10 +14,10 @@ export default function TreeLegend({ onBranchFilter }: TreeLegendProps) {
     const [selectedBranch, setSelectedBranch] = useState<string | null>(null);
 
     const branches: LegendItem[] = [
-        { id: 'cnn_branch', name: 'CNN', color: '#7C9A24' },
-        { id: 'transformer_branch', name: 'Transformer', color: '#39758D' },
-        { id: 'generation_branch', name: 'Generation', color: '#8A398D' },
-        { id: 'gnn_branch', name: 'Graph NN', color: '#7189DD' }
+        { id: 'cnn_branch', name: 'CNN lineage', color: '#7C9A24' },
+        { id: 'transformer_branch', name: 'Transformer lineage', color: '#39758D' },
+        { id: 'generation_branch', name: 'Generation lineage', color: '#8A398D' },
+        { id: 'gnn_branch', name: 'Graph NN lineage', color: '#7189DD' }
     ];
 
     const handleBranchClick = (branchId: string) => {

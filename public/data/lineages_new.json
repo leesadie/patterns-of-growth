@@ -3,7 +3,7 @@
     "root": {
       "id": "Perceptron Mark I",
       "year": 1957,
-      "displayName": "Perceptron Mark I",
+      "displayName": "Perceptron-Mark I",
       "metadata": {
         "architecture": "Perceptron",
         "organization": "Cornell Aeronautical Laboratory,Cornell University",

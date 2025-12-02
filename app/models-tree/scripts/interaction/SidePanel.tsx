@@ -23,7 +23,7 @@ export default function SidePanel() {
     const metadata = (selectedNode as any).metadata || {};
 
     return (
-        <div className="absolute right-4 bottom-4 h-72 w-80 bg-white backdrop-blur-sm z-20 p-6 overflow-y-auto border border-gray-400/20 rounded-md shadow-xs shadow-gray-100">
+        <div className="absolute right-8 bottom-6 h-72 w-80 bg-white backdrop-blur-sm z-20 p-6 overflow-y-auto border border-gray-400/20 rounded-md shadow-xs shadow-gray-100">
             {/* Close button */}
             <button
                 onClick={() => setSelectedNode(null)}

@@ -1,8 +1,7 @@
 'use client';
 
-import { font_bold, font_head } from "@/app/fonts";
+import { font_head } from "@/app/fonts";
 import { GoArrowUpRight } from "react-icons/go";
-import Image from "next/image";
 
 const Hero = () => {
     return (
@@ -26,7 +25,7 @@ const Hero = () => {
                 id="title"
                 className="flex flex-col pt-28"
             >
-                <div className={`text-[52px]/14 ${font_head.className}`}>
+                <div className={`text-[52px]/16 ${font_head.className}`}>
                     Patterns of Growth: Mapping the Trajectory of AI Model Development
                 </div>
             </div>

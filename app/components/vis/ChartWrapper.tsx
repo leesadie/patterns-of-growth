@@ -5,6 +5,7 @@ interface ChartWrapperProps {
     maxWidth?: number | string;
     className?: string; // extra classes for inner wrapper
     outerClass?: string; // extra classes for outer wrapper
+    id?: string;
 }
 
 // Creates full bleed wrapper to break out of set margins
@@ -12,10 +13,12 @@ export default function ChartWrapper({
     children,
     maxWidth = 950,
     className = "",
-    outerClass = ""
+    outerClass = "",
+    id
 }: ChartWrapperProps) {
     return (
         <div
+            id={id}
             className={`
                 relative
                 left-1/2

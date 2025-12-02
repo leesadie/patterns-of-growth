@@ -13,7 +13,7 @@ const DeepLearning = () => {
     return (
         <div>
             <div className={`text-3xl ${font_head.className}`}>
-                Ignacio: Deep learning era
+                Deep learning era
             </div>
 
             {/* VIEW 1 */}
