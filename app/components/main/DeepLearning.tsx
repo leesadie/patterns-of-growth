@@ -46,7 +46,7 @@ const DeepLearning = () => {
                 </span>
             </div>
 
-            <ChartWrapper maxWidth={1100} className="" outerClass="pt-20" id="efficiency_view1">
+            <ChartWrapper maxWidth={1100} className="" outerClass="pt-20" id="efficiency_view2">
                 <Chart path="/charts/deeplearning/chart2_dle.json" id="chart1" />
             </ChartWrapper>
 
@@ -60,7 +60,7 @@ const DeepLearning = () => {
                 </span>
             </div>
 
-            <ChartWrapper maxWidth={1100} className="" outerClass="pt-20" id="efficiency_view1">
+            <ChartWrapper maxWidth={1100} className="" outerClass="pt-20" id="efficiency_view3">
                 <Chart path="/charts/deeplearning/chart3_dle.json" id="chart1" />
             </ChartWrapper>
         </div>

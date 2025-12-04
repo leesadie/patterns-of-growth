@@ -46,7 +46,7 @@ const Geographic = () => {
                 </span>
             </div>
 
-            <ChartWrapper maxWidth={900} outerClass="pt-12" id="view2">
+            <ChartWrapper maxWidth={900} outerClass="pt-12" id="geo_view2">
                 <Chart path="/charts/geographic/chart3_geo.json" id="chart3"/>
             </ChartWrapper>
 
@@ -60,7 +60,7 @@ const Geographic = () => {
                 </span>
             </div>
 
-            <ChartWrapper maxWidth={1100} outerClass="pt-12" id="view3">
+            <ChartWrapper maxWidth={1100} outerClass="pt-12" id="geo_view3">
                 <Chart path="/charts/geographic/chart2_geo.json" id="chart2"/>
             </ChartWrapper>
         </div>
