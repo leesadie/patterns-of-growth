@@ -3,7 +3,7 @@ import "./globals.css";
 import { font_body } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "AI Model Progress",
+  title: "Patterns of Growth",
   description: "Data visualization on AI model progress",
 };
 

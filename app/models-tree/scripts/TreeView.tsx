@@ -217,8 +217,8 @@ export default function TreeView() {
                 style={{ 
                     backgroundColor: '#EDEFF4',
                     backgroundImage: `
-                        linear-gradient(#d1d5db 0.3px, transparent 0.3px),
-                        linear-gradient(90deg, #d1d5db 0.3px, transparent 0.3px)
+                        linear-gradient(#E1E1E1 0.3px, transparent 0.1px),
+                        linear-gradient(90deg, #E1E1E1 0.3px, transparent 0.1px)
                     `,
                     backgroundSize: '60px 60px',
                     backgroundPosition: '-1px -1px'

@@ -1625,7 +1625,7 @@
             "metadata": {
               "architecture": "GNN",
               "organization": "University of Siena",
-              "domain": "nan",
+              "domain": "Graphs",
               "parameters": 30.0,
               "training_compute": 1614600000.0,
               "training_time": null,

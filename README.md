@@ -1,4 +1,8 @@
-# DSCI 320 project website
+# Patterns of Growth
+
+DSCI 320 project website
+
+Visit the website here: [insert link]
 
 ## Stack
 <p align="center">

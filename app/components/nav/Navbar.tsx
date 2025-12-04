@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 import { font_med, font_bold } from "@/app/fonts";
 
 const sections = [
-    { id: "intro", label: "Overview" },
+    { id: "intro", label: "Introduction" },
     { id: "temporal", label: "Temporal patterns" },
     { id: "geo", label: "Geographic patterns" },
-    { id: "dle", label: "Deep learning era" },
-    { id: "summary", label: "Summary" }
+    { id: "dle", label: "Efficiency patterns" },
+    { id: "discussion", label: "Discussion" }
 ]
 
 const Navbar = () => {
@@ -18,12 +18,15 @@ const Navbar = () => {
     // Sticky scroll
     useEffect(() => {
         const handleScroll = () => {
-            const triggerPoint = (5 / 12) * window.innerHeight;
+            const hero = document.getElementById("hero");
+            if (!hero) return;
 
-            setIsSticky(window.scrollY > triggerPoint);
+            const heroBottom = hero.getBoundingClientRect().bottom;
+            setIsSticky(heroBottom <= 0);
         };
 
         window.addEventListener("scroll", handleScroll);
+        handleScroll();
 
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
@@ -67,18 +70,21 @@ const Navbar = () => {
         <nav
             className={`
                 fixed
+                top-4
+                left-10
                 block
                 bg-white
                 p-2
                 w-fit
                 flex-col
                 space-y-2
+                transform
                 transition-all
                 duration-300
                 ease-in-out
                 z-50
+                ${isSticky ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"}
             `}
-            style={{ left: "2.5rem", top: isSticky ? "1rem" : `${(5/12) * 100}vh` }}
         >
             <div className={`text-large ${font_bold.className}`}>
                 Contents
