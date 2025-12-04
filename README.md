@@ -2,7 +2,7 @@
 
 DSCI 320 project website
 
-Visit the website here: [insert link]
+Visit the website here: https://patterns-of-growth.vercel.app/
 
 ## Stack
 <p align="center">
