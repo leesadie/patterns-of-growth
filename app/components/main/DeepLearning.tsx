@@ -13,7 +13,7 @@ const Chart = dynamic(() => import('../vis/Chart'), {
 const DeepLearning = () => {
     return (
         <div>
-            <hr className="mt-20 mb-10 text-herobg w-full"/>
+            <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
             <div className="flex flex-row gap-5">
                 <div className={`text-2xl ${font_med.className}`}>
                     IV
@@ -36,8 +36,18 @@ const DeepLearning = () => {
                 <Chart path="/charts/deeplearning/chart1_dle.json" id="chart1" />
             </ChartWrapper>
 
+            <div className="pt-12">
+                Across the deep learning era, efficiency metrics have generally increased, also reflecting the earlier temporal findings. 
+                As expected, the models with the highest levels of training compute are frontier models, given that Epoch AI defines a frontier model in the dataset as models in the top 10 by training compute at the time of their release, a threshold that has increased over time as larger models are developed. 
+            </div>
+            <div className="pt-4">
+                At the organization level, the data records xAI's 2025 Grok model as having the greatest efficiency in training compute FLOPs per training hour.
+            </div>
+
+            <hr className="my-24 w-full border-t border-lightgray" />
+
             {/* VIEW 2 */}
-            <div className="pt-32">
+            <div className="">
                 <span>
                     We then examine,
                 </span>
@@ -50,8 +60,14 @@ const DeepLearning = () => {
                 <Chart path="/charts/deeplearning/chart2_dle.json" id="chart1" />
             </ChartWrapper>
 
+            <div className="pt-12">
+                As training compute has grown, so have training costs. This is expected, and further seen where frontier models, i.e models leading in training compute, generally exhibit higher training costs than non-frontier models. 
+            </div>
+
+            <hr className="my-24 w-full border-t border-lightgray" />
+
             {/* VIEW 3 */}
-            <div className="pt-32">
+            <div className="">
                 <span>
                     Finally,
                 </span>
@@ -63,6 +79,11 @@ const DeepLearning = () => {
             <ChartWrapper maxWidth={1100} className="" outerClass="pt-20" id="efficiency_view3">
                 <Chart path="/charts/deeplearning/chart3_dle.json" id="chart1" />
             </ChartWrapper>
+
+            <div className="pt-12">
+                Several training metrics are highly correlated, particularly, power draw and compute, and power draw and cost. 
+                This is also expected given the nature of the data, as some of the values for these variables were derived directly from each other by Epoch AI, when values were not reported by the model's organization.
+            </div>
         </div>
     );
 }

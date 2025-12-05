@@ -21,7 +21,7 @@ const Main_New = () => {
                 id="intro"
                 className="flex flex-col mx-72 pt-12"
             >
-                <hr className="mt-20 mb-10 text-herobg w-full"/>
+                <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
                 <div className="flex flex-row gap-5">
                     <div className={`text-2xl ${font_med.className}`}>
                         I
@@ -68,7 +68,7 @@ const Main_New = () => {
                 id="discussion"
                 className="flex flex-col mx-72 pt-12"
             >
-                <hr className="mt-20 mb-10 text-herobg w-full"/>
+                <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
                 <div className="flex flex-row gap-5">
                     <div className={`text-2xl ${font_med.className}`}>
                         V
@@ -93,7 +93,7 @@ const Main_New = () => {
                 id="appendix"
                 className="flex flex-col mx-72 pt-12 mb-20"
             >
-                <hr className="mt-20 mb-10 text-herobg w-full"/>
+                <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
                 <div className={`text-2xl ${font_med.className}`}>
                     Appendix
                 </div>
