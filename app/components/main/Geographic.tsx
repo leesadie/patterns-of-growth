@@ -15,10 +15,10 @@ const Geographic = () => {
         <div>
             <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
             <div className="flex flex-row gap-5">
-                <div className={`text-2xl ${font_med.className}`}>
+                <div className={`md:text-2xl text-xl ${font_med.className}`}>
                     III
                 </div>
-                <div className={`text-2xl ${font_med.className}`}>
+                <div className={`md:text-2xl text-xl ${font_med.className}`}>
                     Geographic patterns
                 </div>
             </div>

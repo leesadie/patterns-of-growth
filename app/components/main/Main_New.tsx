@@ -12,21 +12,25 @@ import Resources from "./Resources";
 const Main_New = () => {
     return (
         <div>
+            {/* COVER */}
             <Hero />
 
-            <Navbar />
+            {/* NAV - only visible on desktop */}
+            <div className="md:block hidden">
+                <Navbar />
+            </div>
 
             {/* INTRO */}
             <section
                 id="intro"
-                className="flex flex-col md:mx-72 mx-12 pt-12"
+                className="flex flex-col md:mx-72 mx-15 pt-12"
             >
                 <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
                 <div className="flex flex-row gap-5">
-                    <div className={`text-2xl ${font_med.className}`}>
+                    <div className={`md:text-2xl text-xl ${font_med.className}`}>
                         I
                     </div>
-                    <div className={`text-2xl ${font_med.className}`}>
+                    <div className={`md:text-2xl text-xl ${font_med.className}`}>
                         Introduction
                     </div>
                 </div>
@@ -42,7 +46,7 @@ const Main_New = () => {
             {/* TEMPORAL */}
             <section
                 id="temporal"
-                className="flex flex-col md:mx-72 mx-12 pt-8"
+                className="flex flex-col md:mx-72 mx-15  pt-8"
             >
                 <Temporal />
             </section>
@@ -50,7 +54,7 @@ const Main_New = () => {
             {/* GEOGRAPHIC */}
             <section
                 id="geo"
-                className="flex flex-col md:mx-72 mx-12 pt-12"
+                className="flex flex-col md:mx-72 mx-15 pt-12"
             >
                 <Geographic />
             </section>
@@ -58,7 +62,7 @@ const Main_New = () => {
             {/* RESOURCES */}
             <section
                 id="dle"
-                className="flex flex-col md:mx-72 mx-12 pt-12"
+                className="flex flex-col md:mx-72 mx-15 pt-12"
             >
                 <Resources />
             </section>
@@ -66,14 +70,14 @@ const Main_New = () => {
             {/* DISCUSSION */}
             <section
                 id="discussion"
-                className="flex flex-col md:mx-72 mx-12 pt-12"
+                className="flex flex-col md:mx-72 mx-15 pt-12"
             >
                 <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
                 <div className="flex flex-row gap-5">
-                    <div className={`text-2xl ${font_med.className}`}>
+                    <div className={`md:text-2xl text-xl ${font_med.className}`}>
                         V
                     </div>
-                    <div className={`text-2xl ${font_med.className}`}>
+                    <div className={`md:text-2xl text-xl ${font_med.className}`}>
                         Discussion
                     </div>
                 </div>
@@ -91,10 +95,10 @@ const Main_New = () => {
             {/* APPENDIX */}
             <section
                 id="appendix"
-                className="flex flex-col md:mx-72 mx-12 pt-12 mb-20"
+                className="flex flex-col md:mx-72 mx-15 pt-12 mb-20"
             >
                 <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
-                <div className={`text-2xl ${font_med.className}`}>
+                <div className={`md:text-2xl text-xl ${font_med.className}`}>
                     Appendix
                 </div>
                 <div className="pt-10">
