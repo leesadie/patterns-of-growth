@@ -7,7 +7,7 @@ import Navbar from "../nav/Navbar";
 
 import Temporal from "./Temporal_New";
 import Geographic from "./Geographic";
-import DeepLearning from "./DeepLearning";
+import Resources from "./Resources";
 
 const Main_New = () => {
     return (
@@ -19,7 +19,7 @@ const Main_New = () => {
             {/* INTRO */}
             <section
                 id="intro"
-                className="flex flex-col mx-72 pt-12"
+                className="flex flex-col md:mx-72 mx-12 pt-12"
             >
                 <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
                 <div className="flex flex-row gap-5">
@@ -42,7 +42,7 @@ const Main_New = () => {
             {/* TEMPORAL */}
             <section
                 id="temporal"
-                className="flex flex-col mx-72 pt-8"
+                className="flex flex-col md:mx-72 mx-12 pt-8"
             >
                 <Temporal />
             </section>
@@ -50,23 +50,23 @@ const Main_New = () => {
             {/* GEOGRAPHIC */}
             <section
                 id="geo"
-                className="flex flex-col mx-72 pt-12"
+                className="flex flex-col md:mx-72 mx-12 pt-12"
             >
                 <Geographic />
             </section>
 
-            {/* DEEP LEARNING */}
+            {/* RESOURCES */}
             <section
                 id="dle"
-                className="flex flex-col mx-72 pt-12"
+                className="flex flex-col md:mx-72 mx-12 pt-12"
             >
-                <DeepLearning />
+                <Resources />
             </section>
 
             {/* DISCUSSION */}
             <section
                 id="discussion"
-                className="flex flex-col mx-72 pt-12"
+                className="flex flex-col md:mx-72 mx-12 pt-12"
             >
                 <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
                 <div className="flex flex-row gap-5">
@@ -91,7 +91,7 @@ const Main_New = () => {
             {/* APPENDIX */}
             <section
                 id="appendix"
-                className="flex flex-col mx-72 pt-12 mb-20"
+                className="flex flex-col md:mx-72 mx-12 pt-12 mb-20"
             >
                 <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
                 <div className={`text-2xl ${font_med.className}`}>
@@ -164,13 +164,13 @@ const Main_New = () => {
                     <span className="pr-1">
                         Explore the
                     </span>
-                    <a href="https://github.com/ubc-dsci320-2025w1/project-team_beepbopboop" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-60 decoration-1 transition duration-200">
+                    <a href="https://github.com/leesadie/patterns-of-growth/scripts" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-60 decoration-1 transition duration-200">
                         visualization code
                     </a>
                     <span className="pr-1">
                         . Explore the 
                     </span>
-                    <a href="https://github.com/leesadie/dsci320-web" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 decoration-1 hover:opacity-60 transition duration-200">
+                    <a href="https://github.com/leesadie/patterns-of-growth" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 decoration-1 hover:opacity-60 transition duration-200">
                         website code
                     </a>
                     <span>

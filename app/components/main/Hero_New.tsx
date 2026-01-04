@@ -6,14 +6,14 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <div id="hero" className="flex flex-col w-screen h-screen items-center justify-center bg-herobg">
-            <div className={`text-6xl text-white text-center ${font_head.className}`}>
+            <div className={`md:text-6xl text-4xl text-white text-center ${font_head.className}`}>
                 Patterns of <br /> Growth
             </div>
-            <div className="text-lg text-white w-104 pt-10 text-center">
+            <div className="md:text-lg text-sm text-white md:w-104 w-80 pt-10 text-center">
                 Mapping the trajectory of AI model development across time, geography, and use of resources
             </div>
             <div className="pt-20">
-                <div className="flex flex-row gap-4 text-white">
+                <div className="flex flex-row gap-4 text-white md:text-base text-sm">
                     <div>
                         Rafa Africa,
                     </div>
@@ -25,7 +25,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="pt-2 text-white">
+            <div className="pt-2 text-white md:text-base text-sm">
                 DSCI 320  •  2025
             </div>
             <div className="mt-20">
@@ -34,6 +34,7 @@ const Hero = () => {
                     alt="hero"
                     height={500}
                     width={500}
+                    className="md:w-full w-80"
                 />
             </div>
         </div>

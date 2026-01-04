@@ -1,6 +1,6 @@
 'use client';
 
-import { font_head, font_med } from "@/app/fonts";
+import { font_med } from "@/app/fonts";
 import ChartWrapper from "../vis/ChartWrapper";
 
 // Import and render Altair charts dynamically - allow for interactions
@@ -10,7 +10,7 @@ const Chart = dynamic(() => import('../vis/Chart'), {
     loading: () => <div>Loading chart...</div>
 })
 
-const DeepLearning = () => {
+const Resources = () => {
     return (
         <div>
             <hr className="mt-20 mb-10 w-full border-t-5 border-herobg" />
@@ -33,7 +33,7 @@ const DeepLearning = () => {
 
             {/* VIEW 1 */}
             <ChartWrapper maxWidth={1000} className="" outerClass="pt-20" id="efficiency_view1">
-                <Chart path="/charts/deeplearning/chart1_dle.json" id="chart1" />
+                <Chart path="/charts/resources/chart1_dle.json" id="chart1" />
             </ChartWrapper>
 
             <div className="pt-12">
@@ -57,7 +57,7 @@ const DeepLearning = () => {
             </div>
 
             <ChartWrapper maxWidth={1100} className="" outerClass="pt-20" id="efficiency_view2">
-                <Chart path="/charts/deeplearning/chart2_dle.json" id="chart1" />
+                <Chart path="/charts/resources/chart2_dle.json" id="chart1" />
             </ChartWrapper>
 
             <div className="pt-12">
@@ -72,12 +72,12 @@ const DeepLearning = () => {
                     Finally,
                 </span>
                 <span className={`pl-1 ${font_med.className}`}>
-                    how do efficiency, cost, and scale metrics correlate with each other and how have these relations changed across time?
+                    how do efficiency, cost, and scale metrics correlate with each other and how have these relations changed over time?
                 </span>
             </div>
 
             <ChartWrapper maxWidth={1100} className="" outerClass="pt-20" id="efficiency_view3">
-                <Chart path="/charts/deeplearning/chart3_dle.json" id="chart1" />
+                <Chart path="/charts/resources/chart3_dle.json" id="chart1" />
             </ChartWrapper>
 
             <div className="pt-12">
@@ -88,4 +88,4 @@ const DeepLearning = () => {
     );
 }
 
-export default DeepLearning;
+export default Resources;
