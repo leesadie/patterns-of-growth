@@ -168,7 +168,7 @@ const Main_New = () => {
                     <span className="pr-1">
                         Explore the
                     </span>
-                    <a href="https://github.com/leesadie/patterns-of-growth/scripts" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-60 decoration-1 transition duration-200">
+                    <a href="https://github.com/leesadie/DSCI320_project-public" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-60 decoration-1 transition duration-200">
                         visualization code
                     </a>
                     <span className="pr-1">
