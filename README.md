@@ -16,7 +16,7 @@ Visit the website here: https://patterns-of-growth.vercel.app/
 
 Clone the repository and install dependencies:
 ```
-git clone https://github.com/leesadie/dsci320-web.git
+git clone https://github.com/leesadie/patterns-of-growth.git
 npm install
 npm run dev
 ```
